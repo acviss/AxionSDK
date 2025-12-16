@@ -1,0 +1,1319 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Axion",
+    "printedName": "Axion",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AxionScannerSDK",
+        "printedName": "AxionScannerSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentScanner",
+            "printedName": "presentScanner(from:onClose:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Axion0A10ScannerSDKC07presentB04from7onCloseySo16UIViewControllerCSg_yycSgtFZ",
+            "mangledName": "$s5Axion0A10ScannerSDKC07presentB04from7onCloseySo16UIViewControllerCSg_yycSgtFZ",
+            "moduleName": "Axion",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5Axion0A10ScannerSDKC",
+        "mangledName": "$s5Axion0A10ScannerSDKC",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "MessageUI",
+        "printedName": "MessageUI",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PredictResponse",
+        "printedName": "PredictResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PredictResponse",
+                "printedName": "Axion.PredictResponse",
+                "usr": "s:5Axion15PredictResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Axion15PredictResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5Axion15PredictResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Axion",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Axion15PredictResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5Axion15PredictResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Axion",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Axion15PredictResponseV",
+        "mangledName": "$s5Axion15PredictResponseV",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLRequest",
+        "printedName": "URLRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "curlString",
+            "printedName": "curlString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation10URLRequestV5AxionE10curlStringSSvp",
+            "mangledName": "$s10Foundation10URLRequestV5AxionE10curlStringSSvp",
+            "moduleName": "Axion",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation10URLRequestV5AxionE10curlStringSSvg",
+                "mangledName": "$s10Foundation10URLRequestV5AxionE10curlStringSSvg",
+                "moduleName": "Axion",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation10URLRequestV",
+        "mangledName": "$s10Foundation10URLRequestV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURLRequest",
+                    "printedName": "Foundation.NSURLRequest",
+                    "usr": "c:objc(cs)NSURLRequest"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURLRequest",
+                    "printedName": "Foundation.NSURLRequest",
+                    "usr": "c:objc(cs)NSURLRequest"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "URLRequestConvertible",
+            "printedName": "URLRequestConvertible",
+            "usr": "s:9Alamofire21URLRequestConvertibleP",
+            "mangledName": "$s9Alamofire21URLRequestConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 791,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 883,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1438,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1535,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1851,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2026,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2207,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2246,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2285,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2325,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 27955,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 632,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 675,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 770,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 923,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24234,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "StringLiteral",
+      "offset": 25306,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "StringLiteral",
+      "offset": 42257,
+      "length": 13,
+      "value": "\"celebration\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 46062,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 55569,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 55610,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 58246,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "Dictionary",
+      "offset": 62696,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "StringLiteral",
+      "offset": 62788,
+      "length": 14,
+      "value": "\"prod_details\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "StringLiteral",
+      "offset": 62812,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 63022,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 74,
+      "length": 12,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 88,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 99,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 108,
+      "length": 11,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 121,
+      "length": 7,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 130,
+      "length": 5,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 137,
+      "length": 15,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 154,
+      "length": 13,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 12,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "Array",
+      "offset": 1589,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1618,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1675,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1700,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 332,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
+      "length": 11,
+      "value": "\"Acvission\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 22,
+      "value": "\"api\/v2\/is-logged-in\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 33,
+      "value": "\"api\/v2\/generate-linked-user-id\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 17,
+      "value": "\"api\/v2\/get-otp\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 17,
+      "value": "\"api\/v2\/profile\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 773,
+      "length": 15,
+      "value": "\"api\/v2\/login\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 807,
+      "length": 16,
+      "value": "\"api\/v2\/logout\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 841,
+      "length": 14,
+      "value": "\"api\/v2\/feeds\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 891,
+      "length": 31,
+      "value": "\"api\/v2\/loyalty-customer-list\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 959,
+      "length": 24,
+      "value": "\"api\/v2\/linked-user-id\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1016,
+      "length": 32,
+      "value": "\"api\/v2\/generate_referral_code\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1081,
+      "length": 32,
+      "value": "\"api\/v1\/validate_referral_code\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 30,
+      "value": "\"api\/v1\/config\/refer-and-earn\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 28,
+      "value": "\"api\/v1\/delete-mobile-user\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1269,
+      "length": 24,
+      "value": "\"api\/v2\/config\/monolith\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1314,
+      "length": 14,
+      "value": "\"api\/v3\/feeds\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1349,
+      "length": 14,
+      "value": "\"api\/v4\/feeds\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1389,
+      "length": 17,
+      "value": "\"api\/v1\/get-otp\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1434,
+      "length": 22,
+      "value": "\"api\/v1\/app\/feedback\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1491,
+      "length": 31,
+      "value": "\"api\/v1\/feedback-issue-create\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1568,
+      "length": 47,
+      "value": "\"api\/v2\/authenticity-verification-yellow-code\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1631,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2139,
+      "length": 30,
+      "value": "\"https:\/\/acvissgen.acviss.co\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "Dictionary",
+      "offset": 4467,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4510,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/ResultViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 27,
+      "value": "\"support@axioncode.example\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/ResultViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 15,
+      "value": "\"+911234567890\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/ResultViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 395,
+      "length": 27,
+      "value": "\"https:\/\/axioncode.example\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/UIApplication+TopViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 18,
+      "value": "\"acviss.scanAgain\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Utilities\/APIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 14,
+      "value": "\"Final Result\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 626,
+      "length": 11,
+      "value": "\"BrandBlue\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 15,
+      "value": "\"failure_color\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 12,
+      "value": "\"light_text\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 15,
+      "value": "\"success_color\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 9,
+      "value": "\"ax_icon\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1446,
+      "length": 18,
+      "value": "\"logo_placeholder\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 17,
+      "value": "\"product_failure\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1759,
+      "length": 17,
+      "value": "\"product_success\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1919,
+      "length": 19,
+      "value": "\"scan_illustration\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2071,
+      "length": 14,
+      "value": "\"success_tick\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2212,
+      "length": 11,
+      "value": "\"tick_mark\""
+    }
+  ]
+}

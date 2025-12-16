@@ -1,0 +1,6 @@
+framework module Axion {
+  umbrella header "Axion.h"
+  export *
+
+  module * { export * }
+}
