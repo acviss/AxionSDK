@@ -33,6 +33,13 @@ https://github.com/acviss/AxionSDK
 ### 2️⃣ Import the SDK
 ```swift
 import Axion
-That's it — no other dependencies are required.
+That's it — no other dependencies are required.```
 
 The SDK internally uses networking libraries, but your app does not need to add or configure anything.
+
+### 🔐 **Required App Permissions**
+Since the SDK accesses the device camera, your app must declare camera usage permission.
+
+Add the following keys to your App target's Info.plist:
+
+
