@@ -27,3 +27,12 @@ In Xcode:
 1. Open your project
 2. Go to **File → Add Packages…**
 3. Enter the repository URL:
+https://github.com/acviss/AxionSDK
+4. Select the required version and add the package
+
+### 2️⃣ Import the SDK
+```swift
+import Axion
+That's it — no other dependencies are required.
+
+The SDK internally uses networking libraries, but your app does not need to add or configure anything.
