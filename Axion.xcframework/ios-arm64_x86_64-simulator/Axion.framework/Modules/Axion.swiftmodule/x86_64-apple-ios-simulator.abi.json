@@ -198,13 +198,20 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "YouTubePlayerKit",
+        "printedName": "YouTubePlayerKit",
         "declKind": "Import",
         "moduleName": "Axion",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Axion"
       },
       {
         "kind": "Import",
@@ -784,128 +791,135 @@
       "value": "1000.0"
     },
     {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 57482,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 632,
+      "offset": 639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 675,
+      "offset": 682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 719,
+      "offset": 726,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 770,
+      "offset": 777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 828,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 882,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 923,
+      "offset": 930,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 24234,
+      "offset": 24241,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 25306,
+      "offset": 25313,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 42257,
+      "offset": 42264,
       "length": 13,
       "value": "\"celebration\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 46062,
+      "offset": 46118,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55569,
+      "offset": 55613,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55610,
+      "offset": 55654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 58246,
+      "offset": 58290,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "Dictionary",
-      "offset": 62696,
+      "offset": 62740,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 62788,
+      "offset": 62832,
       "length": 14,
       "value": "\"prod_details\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 62812,
+      "offset": 62856,
       "length": 6,
       "value": "\"json\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63022,
+      "offset": 63066,
       "length": 4,
       "value": "true"
     },
@@ -1024,9 +1038,9 @@
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 332,
-      "length": 4,
-      "value": "true"
+      "offset": 331,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
@@ -1192,14 +1206,14 @@
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
       "kind": "Dictionary",
-      "offset": 4467,
+      "offset": 4588,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4510,
+      "offset": 4631,
       "length": 2,
       "value": "\"\""
     },
@@ -1269,49 +1283,63 @@
     {
       "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphonesimulator\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1296,
+      "offset": 1304,
+      "length": 13,
+      "value": "\"acviss_logo\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphonesimulator\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1440,
       "length": 9,
       "value": "\"ax_icon\""
     },
     {
       "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphonesimulator\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1446,
+      "offset": 1581,
+      "length": 13,
+      "value": "\"celebration\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphonesimulator\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
       "length": 18,
       "value": "\"logo_placeholder\""
     },
     {
       "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphonesimulator\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1603,
+      "offset": 1892,
       "length": 17,
       "value": "\"product_failure\""
     },
     {
       "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphonesimulator\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1759,
+      "offset": 2048,
       "length": 17,
       "value": "\"product_success\""
     },
     {
       "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphonesimulator\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1919,
+      "offset": 2208,
       "length": 19,
       "value": "\"scan_illustration\""
     },
     {
       "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphonesimulator\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 2360,
       "length": 14,
       "value": "\"success_tick\""
     },
     {
       "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphonesimulator\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2212,
+      "offset": 2501,
       "length": 11,
       "value": "\"tick_mark\""
     }
