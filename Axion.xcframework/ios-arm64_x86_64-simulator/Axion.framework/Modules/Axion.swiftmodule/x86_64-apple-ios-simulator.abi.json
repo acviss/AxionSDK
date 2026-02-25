@@ -22,7 +22,7 @@
           {
             "kind": "Function",
             "name": "presentScanner",
-            "printedName": "presentScanner(from:onClose:)",
+            "printedName": "presentScanner(from:testingLabel:onClose:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -43,6 +43,12 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -72,8 +78,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Axion0A10ScannerSDKC07presentB04from7onCloseySo16UIViewControllerCSg_yycSgtFZ",
-            "mangledName": "$s5Axion0A10ScannerSDKC07presentB04from7onCloseySo16UIViewControllerCSg_yycSgtFZ",
+            "usr": "s:5Axion0A10ScannerSDKC07presentB04from12testingLabel7onCloseySo16UIViewControllerCSg_SSyycSgtFZ",
+            "mangledName": "$s5Axion0A10ScannerSDKC07presentB04from12testingLabel7onCloseySo16UIViewControllerCSg_SSyycSgtFZ",
             "moduleName": "Axion",
             "static": true,
             "declAttributes": [
@@ -142,6 +148,13 @@
         "kind": "Import",
         "name": "CoreImage",
         "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "Axion"
       },
@@ -715,85 +728,113 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 10,
+      "value": "\"Original\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 471,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 791,
+      "offset": 981,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 883,
+      "offset": 1073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1438,
+      "offset": 1628,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1535,
+      "offset": 1725,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1851,
+      "offset": 2041,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2026,
+      "offset": 2216,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2207,
+      "offset": 2397,
       "length": 3,
-      "value": "2.0"
+      "value": "2.5"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2246,
+      "offset": 2436,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2285,
+      "offset": 2475,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2325,
+      "offset": 2515,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2643,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2700,
+      "length": 25,
+      "value": "\"com.axion.scanner.audio\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27955,
+      "offset": 32022,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 57482,
+      "offset": 64709,
       "length": 3,
       "value": "2.0"
     },
@@ -849,77 +890,77 @@
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 24241,
+      "offset": 26268,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 25313,
+      "offset": 27340,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 42264,
+      "offset": 44291,
       "length": 13,
       "value": "\"celebration\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 46118,
+      "offset": 48145,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55613,
+      "offset": 57640,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55654,
+      "offset": 57681,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 58290,
+      "offset": 60317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "Dictionary",
-      "offset": 62740,
+      "offset": 64767,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 62832,
+      "offset": 64859,
       "length": 14,
       "value": "\"prod_details\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 62856,
+      "offset": 64883,
       "length": 6,
       "value": "\"json\""
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63066,
+      "offset": 65093,
       "length": 4,
       "value": "true"
     },
@@ -1206,14 +1247,14 @@
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
       "kind": "Dictionary",
-      "offset": 4588,
+      "offset": 4816,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4631,
+      "offset": 4859,
       "length": 2,
       "value": "\"\""
     },

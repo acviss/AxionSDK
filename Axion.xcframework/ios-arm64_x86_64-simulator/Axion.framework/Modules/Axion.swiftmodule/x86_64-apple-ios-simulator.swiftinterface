@@ -25,7 +25,7 @@ import _SwiftConcurrencyShims
 import _WebKit_SwiftUI
 @_hasMissingDesignatedInitializers final public class AxionScannerSDK {
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func presentScanner(from presentingVC: UIKit.UIViewController? = nil, onClose: (() -> Swift.Void)? = nil)
+  public static func presentScanner(from presentingVC: UIKit.UIViewController? = nil, testingLabel: Swift.String, onClose: (() -> Swift.Void)? = nil)
   #endif
   @objc deinit
 }

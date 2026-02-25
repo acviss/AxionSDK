@@ -26,51 +26,63 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Uam/6w2Oyikcp/oxqbZy+Sj6sj8=
+		MmQjNW+eX+Cs6PzcU8TCFm/RI3Q=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		QWIovC1Car1yla1e9Hq8aXQ8nRg=
+		tE7VJL16/d4Qhgro3h7JOvS27Yw=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		j5upSQK6kUz62GlGoMXShP5FsbY=
+		kwzFdwhacQlidWuwgWVQNuOLKhE=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		SnMsUWvy7z4jt5kAodFcc7dXjjk=
+		5InEvghRTPyhD0h3Tza+0jbkzi0=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		j5upSQK6kUz62GlGoMXShP5FsbY=
+		kwzFdwhacQlidWuwgWVQNuOLKhE=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aIfAMLx7mJR+MvoiheQLOJ2AUyI=
+		9vzDdudNlt84v4cclBddeXslJLQ=
 		</data>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		QWIovC1Car1yla1e9Hq8aXQ8nRg=
+		tE7VJL16/d4Qhgro3h7JOvS27Yw=
 		</data>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		wZrrSREQRN7rGx2as/XOuFb2tu4=
+		VaABy5lu0hAz9rJRBuudFui60+k=
 		</data>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		AVSKURdUB29FJhqBAuDpNYtBRCM=
+		awtFmGb2KSdZoEdPK/FQU8ljx6Q=
 		</data>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wZrrSREQRN7rGx2as/XOuFb2tu4=
+		VaABy5lu0hAz9rJRBuudFui60+k=
 		</data>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XOddC+X6J7IcOvsemDZf9vYXyIc=
+		MMUkRXTgX2fgiTN5hyX2TUSCS5M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		0dmnd3wr5Bl1AAz+fX7rFeZvOMA=
+		</data>
+		<key>QRScannerViewController-build1.1feb24.swift.zip</key>
+		<data>
+		mKOlYR6RShd2PcNs7UoEss5XuWE=
+		</data>
+		<key>QRScannerViewController.swift.zip</key>
+		<data>
+		m6+xSICZ8lcdFtmcUA7obJ6KxFE=
+		</data>
+		<key>en_qr_code_instr.m4a</key>
+		<data>
+		HK4rDzSc2TU49ErVe18BX5LOGWc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -114,70 +126,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jh3EryMZz9UFqikLPH2OgtMSQIc1tCH+VJ/LU1Que2c=
+			hGCmI1ZS2i8ousKQkz6laZ9a4VCwcKVvTIHgzgwjPNs=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0+HgvnYNmF8Gg6Xk4ZsmaXaE30XiSL+IkhfE4DHN7zY=
+			L1TI9g8CHnfxkAw3Bu7NXOt4sjBhEr4Jap9qASVKWNI=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			utbHWDqoXoc9Zelu5edyEsokvjGxQZj64ute39sL+iY=
+			Dez+g5ukwEvwwqgedixkZS09wCr7zOyiWpXeYZJ/Fq0=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0+HgvnYNmF8Gg6Xk4ZsmaXaE30XiSL+IkhfE4DHN7zY=
+			L1TI9g8CHnfxkAw3Bu7NXOt4sjBhEr4Jap9qASVKWNI=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wCyqJ/ZdESMzUOjyl2H4H3Ks1wO8ElXp9A694nYzZLA=
+			nByL5RZPMDK6N3XRpqaNZq0Wzst7iP9iTMAkSLZiz+A=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jh3EryMZz9UFqikLPH2OgtMSQIc1tCH+VJ/LU1Que2c=
+			hGCmI1ZS2i8ousKQkz6laZ9a4VCwcKVvTIHgzgwjPNs=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jx9uLfd4Yy4Kic4AJQlsfge8mZa5tPFc9NaOyi/hkuo=
+			ZvGnzS0LCgX5W/j8dCesilG9GImOgqzl0/TZ/bInqPw=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ARXacoJgjQw4jHV0cxmwvE1JcTvP1TZwqHRe4h1ODKg=
+			ozp7vUD3QrNk3EBfJKSCNWW6SCVVztnEOr2kIFYrWn4=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jx9uLfd4Yy4Kic4AJQlsfge8mZa5tPFc9NaOyi/hkuo=
+			ZvGnzS0LCgX5W/j8dCesilG9GImOgqzl0/TZ/bInqPw=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8JlnIMt4u4RlppjD98mr3WacMD+X4QLK9vnhkLL8GNQ=
+			G7JI32LlR5br2RXVX5hW2F9HwomFKv4WMKIbF7fZrag=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -185,6 +197,27 @@
 			<key>hash2</key>
 			<data>
 			unpuMdPyF6O9k5qhQiCJkr1amxnFGAdoc+Ru9dXq0R8=
+			</data>
+		</dict>
+		<key>QRScannerViewController-build1.1feb24.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aS/QIJCR9tfBzkH1bxwdN8n1y2EhgjZEoOcWFi6BqXQ=
+			</data>
+		</dict>
+		<key>QRScannerViewController.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2aL5MnMjVb2R1XTRdF2g+GlDoyGb2fTyl0hFGWcvYKM=
+			</data>
+		</dict>
+		<key>en_qr_code_instr.m4a</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yuEIt/ybkdZyE2+leUr+Yi6jRXBLo0zjhCKKSvxb5jU=
 			</data>
 		</dict>
 	</dict>

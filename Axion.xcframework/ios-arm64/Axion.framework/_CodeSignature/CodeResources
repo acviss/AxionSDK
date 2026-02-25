@@ -26,31 +26,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		S2ISVuGVANIMifOB65EI0X1ACTU=
+		hmqu8wdtnCbIW4W2oLHnrhhuby0=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ZRoXhEWTNasKPgCc16I4TR+dLqA=
+		Q4BTNVY2pZugrmWBOuuCrknGMAQ=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		FHetzqnivDVXV0KNUpCIUdJy63M=
+		PWfs34zK0K29XUA5VtO7OV7v4+w=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		0YTM4Pw3XWH0nJgWrISNOrwVoig=
+		o3N9LFUqCwMGihVOPGqK4iB6B+8=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FHetzqnivDVXV0KNUpCIUdJy63M=
+		PWfs34zK0K29XUA5VtO7OV7v4+w=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RMWuKheeFBdjunZqaaDl7RHK8aQ=
+		Fxzxs1Uj2nqmyX87AnPnwyNUJME=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		0dmnd3wr5Bl1AAz+fX7rFeZvOMA=
+		</data>
+		<key>QRScannerViewController-build1.1feb24.swift.zip</key>
+		<data>
+		mKOlYR6RShd2PcNs7UoEss5XuWE=
+		</data>
+		<key>QRScannerViewController.swift.zip</key>
+		<data>
+		m6+xSICZ8lcdFtmcUA7obJ6KxFE=
+		</data>
+		<key>en_qr_code_instr.m4a</key>
+		<data>
+		HK4rDzSc2TU49ErVe18BX5LOGWc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -94,35 +106,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b8EkDQqGUTbe6Ynhbb9FJ7EB1OHn75faBnlRwimCiRg=
+			vC2qJcmNLoCe5fxzCcyjJEE2gKNTxDEcEz1IB/B2DnE=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tXjJmv4BRTtpEn6Q9wtbDk5i1N3nuXKoIrX3Pc2L32U=
+			Q36XlpQayMIMxlL+lELUqPmz3rlYgLlDyidckBf/+Eg=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8WRYSzAMOOi+PY4nmi6ZHFqremSW5Lq0pWCH8zHDbw0=
+			mimjQ1f+LiQQqr6hSrHyoxUQsYxo1HuaKsQpAB0gv80=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tXjJmv4BRTtpEn6Q9wtbDk5i1N3nuXKoIrX3Pc2L32U=
+			Q36XlpQayMIMxlL+lELUqPmz3rlYgLlDyidckBf/+Eg=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEkWJZPGgRnEuXG4HOM+gGyaVvOrlYbgkfnKB7L9Dl8=
+			vJiKLSBRonzhM2WnAOuZlrKUnP7nn7JVvIlN9nINbIo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -130,6 +142,27 @@
 			<key>hash2</key>
 			<data>
 			unpuMdPyF6O9k5qhQiCJkr1amxnFGAdoc+Ru9dXq0R8=
+			</data>
+		</dict>
+		<key>QRScannerViewController-build1.1feb24.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aS/QIJCR9tfBzkH1bxwdN8n1y2EhgjZEoOcWFi6BqXQ=
+			</data>
+		</dict>
+		<key>QRScannerViewController.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2aL5MnMjVb2R1XTRdF2g+GlDoyGb2fTyl0hFGWcvYKM=
+			</data>
+		</dict>
+		<key>en_qr_code_instr.m4a</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yuEIt/ybkdZyE2+leUr+Yi6jRXBLo0zjhCKKSvxb5jU=
 			</data>
 		</dict>
 	</dict>
