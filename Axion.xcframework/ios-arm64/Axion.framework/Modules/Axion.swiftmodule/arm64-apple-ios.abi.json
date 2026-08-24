@@ -22,7 +22,7 @@
           {
             "kind": "Function",
             "name": "presentScanner",
-            "printedName": "presentScanner(from:testingLabel:onClose:)",
+            "printedName": "presentScanner(from:testingLabel:spoofLocation:onClose:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -52,6 +52,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "(() -> ())?",
                 "children": [
@@ -78,8 +85,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Axion0A10ScannerSDKC07presentB04from12testingLabel7onCloseySo16UIViewControllerCSg_SSyycSgtFZ",
-            "mangledName": "$s5Axion0A10ScannerSDKC07presentB04from12testingLabel7onCloseySo16UIViewControllerCSg_SSyycSgtFZ",
+            "usr": "s:5Axion0A10ScannerSDKC07presentB04from12testingLabel13spoofLocation7onCloseySo16UIViewControllerCSg_SSSbyycSgtFZ",
+            "mangledName": "$s5Axion0A10ScannerSDKC07presentB04from12testingLabel13spoofLocation7onCloseySo16UIViewControllerCSg_SSSbyycSgtFZ",
             "moduleName": "Axion",
             "static": true,
             "declAttributes": [
@@ -114,6 +121,16 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -157,6 +174,40 @@
         "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Axion"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -504,6 +555,102 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ValidateResponse",
+        "printedName": "ValidateResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ValidateResponse",
+                "printedName": "Axion.ValidateResponse",
+                "usr": "s:5Axion16ValidateResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Axion16ValidateResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5Axion16ValidateResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Axion",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Axion16ValidateResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5Axion16ValidateResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Axion",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Axion16ValidateResponseV",
+        "mangledName": "$s5Axion16ValidateResponseV",
+        "moduleName": "Axion",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -727,660 +874,1311 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 338,
-      "length": 10,
-      "value": "\"Original\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Public\/AxionScannerSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 471,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 981,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1073,
+      "offset": 1199,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1628,
-      "length": 4,
-      "value": "30.0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1725,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2041,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/Detection.swift",
       "kind": "IntegerLiteral",
-      "offset": 2216,
+      "offset": 349,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2397,
-      "length": 3,
-      "value": "2.5"
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/Detection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2436,
-      "length": 3,
-      "value": "1.0"
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/Detection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 1,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2475,
-      "length": 3,
-      "value": "8.0"
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/Detection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 439,
+      "length": 1,
+      "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2515,
-      "length": 3,
-      "value": "0.1"
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 10,
+      "value": "\"Original\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 9,
+      "value": "\"digital\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
       "kind": "BooleanLiteral",
-      "offset": 2643,
+      "offset": 641,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1173,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1186,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1241,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 1694,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 1866,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1958,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 3901,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 3957,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 4014,
+      "length": 3,
+      "value": "7.5"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4277,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4486,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 5740,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6004,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 6275,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 6485,
+      "length": 4,
+      "value": "0.10"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6735,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6833,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6973,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7238,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7413,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 7594,
+      "length": 3,
+      "value": "2.5"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 7633,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 7672,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 7712,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7840,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 8609,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 8656,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9415,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9674,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9801,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9990,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 10049,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 10440,
+      "length": 5,
+      "value": "500.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 10973,
+      "length": 4,
+      "value": "35.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11366,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11414,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11810,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 12138,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12265,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 13314,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 13725,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14046,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14240,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14432,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14481,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14531,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14579,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14624,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 16054,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16368,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16879,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17135,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17606,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 17815,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18913,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21590,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21723,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 21776,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 21959,
+      "length": 4,
+      "value": "0.90"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 22093,
+      "length": 4,
+      "value": "0.08"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 22217,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
       "kind": "StringLiteral",
-      "offset": 2700,
+      "offset": 22272,
       "length": 25,
       "value": "\"com.axion.scanner.audio\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
       "kind": "FloatLiteral",
-      "offset": 32022,
+      "offset": 53790,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 154555,
       "length": 6,
       "value": "1000.0"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Scanner\/QRScannerViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
       "kind": "FloatLiteral",
-      "offset": 64709,
+      "offset": 194283,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 194742,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 195277,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 196186,
+      "length": 4,
+      "value": "1.00"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 197478,
+      "length": 3,
+      "value": "2.2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 199051,
+      "length": 4,
+      "value": "1.00"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 200596,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 201477,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 201701,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 203383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 203709,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 204096,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 204574,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 204934,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 205257,
+      "length": 4,
+      "value": "1.15"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 205716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 205902,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "FloatLiteral",
+      "offset": 308987,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/QRScannerViewControllernow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 350931,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/TFLiteInference.swift",
+      "kind": "FloatLiteral",
+      "offset": 335,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Scanner\/TFLiteInference.swift",
+      "kind": "FloatLiteral",
+      "offset": 377,
+      "length": 4,
+      "value": "0.65"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
       "offset": 639,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "IntegerLiteral",
       "offset": 682,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
       "offset": 726,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
       "offset": 777,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
       "offset": 828,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
       "offset": 882,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
       "offset": 930,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1045,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 26268,
+      "offset": 30404,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 27340,
+      "offset": 31476,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 44291,
+      "offset": 48427,
       "length": 13,
       "value": "\"celebration\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 48145,
+      "offset": 52281,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57640,
+      "offset": 61776,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57681,
+      "offset": 61817,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 60317,
+      "offset": 64453,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "Dictionary",
-      "offset": 64767,
+      "offset": 68903,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 64859,
+      "offset": 68995,
       "length": 14,
       "value": "\"prod_details\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "StringLiteral",
-      "offset": 64883,
+      "offset": 69019,
       "length": 6,
       "value": "\"json\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsView.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 65093,
+      "offset": 69229,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 74,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 88,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 99,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 108,
       "length": 11,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 121,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 130,
       "length": 5,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 137,
       "length": 15,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 13,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 12,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "Array",
       "offset": 1589,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1618,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2098,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1675,
+      "offset": 2155,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1700,
+      "offset": 2180,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/AcvissProdDetailsViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2446,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 234,
       "length": 7,
       "value": "\"DEBUG\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 259,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 283,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/Logger.swift",
       "kind": "BooleanLiteral",
       "offset": 331,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/Logger.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 11,
       "value": "\"Acvission\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 22,
       "value": "\"api\/v2\/is-logged-in\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 638,
       "length": 33,
       "value": "\"api\/v2\/generate-linked-user-id\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 695,
       "length": 17,
       "value": "\"api\/v2\/get-otp\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 738,
       "length": 17,
       "value": "\"api\/v2\/profile\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 15,
       "value": "\"api\/v2\/login\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 807,
       "length": 16,
       "value": "\"api\/v2\/logout\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 841,
       "length": 14,
       "value": "\"api\/v2\/feeds\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 891,
       "length": 31,
       "value": "\"api\/v2\/loyalty-customer-list\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 959,
       "length": 24,
       "value": "\"api\/v2\/linked-user-id\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 32,
       "value": "\"api\/v2\/generate_referral_code\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1081,
       "length": 32,
       "value": "\"api\/v1\/validate_referral_code\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1157,
       "length": 30,
       "value": "\"api\/v1\/config\/refer-and-earn\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1213,
       "length": 28,
       "value": "\"api\/v1\/delete-mobile-user\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1269,
       "length": 24,
       "value": "\"api\/v2\/config\/monolith\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1314,
       "length": 14,
       "value": "\"api\/v3\/feeds\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1349,
       "length": 14,
       "value": "\"api\/v4\/feeds\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1389,
       "length": 17,
       "value": "\"api\/v1\/get-otp\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1434,
       "length": 22,
       "value": "\"api\/v1\/app\/feedback\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1491,
       "length": 31,
       "value": "\"api\/v1\/feedback-issue-create\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1568,
       "length": 47,
       "value": "\"api\/v2\/authenticity-verification-yellow-code\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1631,
+      "offset": 1663,
+      "length": 38,
+      "value": "\"api\/v3\/authenticity-verification-v3\/\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1717,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 2139,
+      "offset": 2225,
       "length": 30,
       "value": "\"https:\/\/acvissgen.acviss.co\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "Dictionary",
-      "offset": 4816,
+      "offset": 4904,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/NetworkManager.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4859,
+      "offset": 4947,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/ResultViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/ResultViewController.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 27,
       "value": "\"support@axioncode.example\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/ResultViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/ResultViewController.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 15,
       "value": "\"+911234567890\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/ResultViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/ResultViewController.swift",
       "kind": "StringLiteral",
       "offset": 395,
       "length": 27,
       "value": "\"https:\/\/axioncode.example\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/UI\/UIApplication+TopViewController.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/UI\/UIApplication+TopViewController.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 18,
       "value": "\"acviss.scanAgain\""
     },
     {
-      "filePath": "\/Users\/apple\/Downloads\/AxionFrameworkWorkspace\/Axion\/Utilities\/APIModel.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Utilities\/APIModel.swift",
       "kind": "StringLiteral",
-      "offset": 340,
+      "offset": 620,
       "length": 14,
-      "value": "\"Final Result\""
+      "value": "\"final_result\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Utilities\/APIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 6,
+      "value": "\"uuid\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Utilities\/APIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 10,
+      "value": "\"qr_value\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Downloads\/Axion_fastfake_minusfocus\/Axion\/Utilities\/APIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1548,
+      "length": 6,
+      "value": "\"Data\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 626,
       "length": 11,
       "value": "\"BrandBlue\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 767,
+      "offset": 764,
+      "length": 11,
+      "value": "\"blue_text\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
       "length": 15,
       "value": "\"failure_color\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 911,
+      "offset": 1049,
       "length": 12,
       "value": "\"light_text\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1053,
+      "offset": 1187,
+      "length": 13,
+      "value": "\"retry_color\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
       "length": 15,
       "value": "\"success_color\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1591,
+      "length": 18,
+      "value": "\"Frame 1707489120\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1750,
+      "length": 18,
+      "value": "\"Frame 1707489121\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1899,
       "length": 13,
       "value": "\"acviss_logo\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 2035,
       "length": 9,
       "value": "\"ax_icon\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1581,
+      "offset": 2176,
       "length": 13,
       "value": "\"celebration\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1735,
+      "offset": 2330,
       "length": 18,
       "value": "\"logo_placeholder\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1892,
+      "offset": 2472,
+      "length": 9,
+      "value": "\"overlay\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2620,
       "length": 17,
       "value": "\"product_failure\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2048,
+      "offset": 2783,
+      "length": 21,
+      "value": "\"product_failure_dgc\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2943,
       "length": 17,
       "value": "\"product_success\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2208,
+      "offset": 3106,
+      "length": 21,
+      "value": "\"product_success_dgc\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3270,
       "length": 19,
       "value": "\"scan_illustration\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2360,
+      "offset": 3422,
       "length": 14,
       "value": "\"success_tick\""
     },
     {
-      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/Axion-abkpfelvlhdunzdedcoeyojcvjeb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/AxionFrameworkWorkspace-actzvtosnwjflmgfpsjooxfovpyu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Axion\/IntermediateBuildFilesPath\/Axion.build\/Release-iphoneos\/Axion.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2501,
+      "offset": 3563,
       "length": 11,
       "value": "\"tick_mark\""
     }

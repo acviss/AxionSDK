@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AcvissProdDetailsViewDGC.swift.zip</key>
+		<data>
+		dT7vpsh90r2hG2Q6EqGGqSduiQM=
+		</data>
+		<key>America.mp3</key>
+		<data>
+		LEG/nkUK0PKpsoa7/5Bv0DKm72c=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		u6aYnYqVxmqaeEB6VtVaGDKgOfE=
+		YaFVqDGJS6sKSznz+TzZ+7EL+HE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
@@ -26,52 +34,134 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hmqu8wdtnCbIW4W2oLHnrhhuby0=
+		/EmB9ZVI3i3yI1PjwbZRwKt6Ii4=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Q4BTNVY2pZugrmWBOuuCrknGMAQ=
+		2pWvpU47l+BQ4vIxNmn1Yu83xUc=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		PWfs34zK0K29XUA5VtO7OV7v4+w=
+		YdpMIUX/5TUsFQnvAgeI3Z5ZJ/8=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		o3N9LFUqCwMGihVOPGqK4iB6B+8=
+		ItCvfLho00ODHALA8h/zc49Bavg=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		PWfs34zK0K29XUA5VtO7OV7v4+w=
+		YdpMIUX/5TUsFQnvAgeI3Z5ZJ/8=
 		</data>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Fxzxs1Uj2nqmyX87AnPnwyNUJME=
+		W2WWzKBD5LipefIxqmWyERUX1rY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		0dmnd3wr5Bl1AAz+fX7rFeZvOMA=
 		</data>
-		<key>QRScannerViewController-build1.1feb24.swift.zip</key>
+		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		mKOlYR6RShd2PcNs7UoEss5XuWE=
+		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
 		</data>
-		<key>QRScannerViewController.swift.zip</key>
+		<key>QRScannerViewController-offsetnotwork.swift.zip</key>
 		<data>
-		m6+xSICZ8lcdFtmcUA7obJ6KxFE=
+		RvFDvOeIZkBC5wzc6VyI/i+BBso=
+		</data>
+		<key>QRScannerViewController-withwrcodecropandappid.swift.zip</key>
+		<data>
+		yyi11NRUld4f97eytZhwnG+/+Ig=
+		</data>
+		<key>QRScannerViewControllernow-appid.swift.zip</key>
+		<data>
+		I8jn0cUItlEkTBU7Ox/NGM9pw1k=
+		</data>
+		<key>QRScannerViewControllernow-cropsolvedforever.swift.zip</key>
+		<data>
+		N5tTshmz/7BsHtPIPcMEIETupjs=
+		</data>
+		<key>QRScannerViewControllernow.swift.zip</key>
+		<data>
+		lbBA3SjE189nULv5yCtacbKRIEc=
+		</data>
+		<key>QRScannerViewControllernow_sharpness.swift.zip</key>
+		<data>
+		6qiobcQmtcsOrQdHIHEoIKPyujM=
+		</data>
+		<key>QRScannerViewControllernowfaketimereducesomelogging.swift.zip</key>
+		<data>
+		TkpCr4GPJoPhiBcyHYtmpquE0qo=
+		</data>
+		<key>QRScannerViewControllernowfix3.5fake.swift.zip</key>
+		<data>
+		F3G7pgQStoElCPQ0ESjddvh6rFg=
+		</data>
+		<key>QRScannerViewControllernowminusiphon14prmax.swift.zip</key>
+		<data>
+		0hHM9Yyd0qmoFtrOsoKeoOXMTQw=
+		</data>
+		<key>TensorFlowLite.bundle/Info.plist</key>
+		<data>
+		8FI4c4/teUqO2Or01BxylrDVh+8=
+		</data>
+		<key>TensorFlowLite.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		i3YpomTpJHpRGpdt+oGaesmknBg=
+		</data>
+		<key>TensorFlowLiteC.bundle/Info.plist</key>
+		<data>
+		QdBAvywHspMz3RCeviwS0cOc+EI=
+		</data>
+		<key>TensorFlowLiteC.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		PFHYbs0V3eUFDWQyYQcwEetuqEk=
 		</data>
 		<key>en_qr_code_instr.m4a</key>
 		<data>
 		HK4rDzSc2TU49ErVe18BX5LOGWc=
 		</data>
+		<key>ext.m4a</key>
+		<data>
+		vDpUQSryfRZdzPOKGxeGGh3ZDvk=
+		</data>
+		<key>fake_details.json</key>
+		<data>
+		yTbq/Wr7nP4vmLPr69NPESMKlLs=
+		</data>
+		<key>model-jul30.tflite</key>
+		<data>
+		11AZNc55Ao2MdwAaf+RyThjrxaY=
+		</data>
+		<key>model-new-offset.tflite</key>
+		<data>
+		tSn2NUKHaeVknVUV++Rz7VHgrZY=
+		</data>
+		<key>model.tflite</key>
+		<data>
+		Y+JmBUOutATbErY94aSsMP+lk7A=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AcvissProdDetailsViewDGC.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bg+RshO/F5GcYluxCi1wLhHcCrNrua7JzLJOX4+OKeo=
+			</data>
+		</dict>
+		<key>America.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HMr+mwa3QTTTuorkHYe7pWcfQATtQ10bWufOtSZUo0k=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SNZNoqkriBO1YqxsyMklziQ9+bVK2VzQAed/mnodws4=
+			ILosZc8rNh76stOPlPAMhMP8dw1VCtK8UqTyREN+Hg0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
@@ -106,35 +196,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vC2qJcmNLoCe5fxzCcyjJEE2gKNTxDEcEz1IB/B2DnE=
+			Bxy9Cp2zz33Yciy7cAd2TA4MNmw1H73qPNALwpvhQUM=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q36XlpQayMIMxlL+lELUqPmz3rlYgLlDyidckBf/+Eg=
+			3cfLUd2MU3+T8nO4Dren+98OsVtse3nf12Zwp7cjvpo=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mimjQ1f+LiQQqr6hSrHyoxUQsYxo1HuaKsQpAB0gv80=
+			x1nuNFBrhq7mpTIrnWDRK3pkx3WxFiNcvrudGj48x50=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q36XlpQayMIMxlL+lELUqPmz3rlYgLlDyidckBf/+Eg=
+			3cfLUd2MU3+T8nO4Dren+98OsVtse3nf12Zwp7cjvpo=
 			</data>
 		</dict>
 		<key>Modules/Axion.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vJiKLSBRonzhM2WnAOuZlrKUnP7nn7JVvIlN9nINbIo=
+			W18pLnE8ugJF0ff2RlLtQIfQxCAzmxRKx3voV9YXosg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -144,18 +234,102 @@
 			unpuMdPyF6O9k5qhQiCJkr1amxnFGAdoc+Ru9dXq0R8=
 			</data>
 		</dict>
-		<key>QRScannerViewController-build1.1feb24.swift.zip</key>
+		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aS/QIJCR9tfBzkH1bxwdN8n1y2EhgjZEoOcWFi6BqXQ=
+			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
 			</data>
 		</dict>
-		<key>QRScannerViewController.swift.zip</key>
+		<key>QRScannerViewController-offsetnotwork.swift.zip</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2aL5MnMjVb2R1XTRdF2g+GlDoyGb2fTyl0hFGWcvYKM=
+			QVQ3F85VCAwMVF+JvXGe1rluPlLfvg0YbV3SK2tnE2g=
+			</data>
+		</dict>
+		<key>QRScannerViewController-withwrcodecropandappid.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wPLcCH4CkN1CbxgG+yr6/uXyR2VZjOEhcsxWXsavBw8=
+			</data>
+		</dict>
+		<key>QRScannerViewControllernow-appid.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FUly3ckDy/HSFlsEB+FQSTxWlruiadhMAtK3iSNqR1s=
+			</data>
+		</dict>
+		<key>QRScannerViewControllernow-cropsolvedforever.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cwinX6NB3ky5VAMyTeFLDSU+CdluOPEaHb7//oVhTdk=
+			</data>
+		</dict>
+		<key>QRScannerViewControllernow.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AG7IgBasvfsvtc0GOSVy01TtvhrUkPYDQsj4A5geaKY=
+			</data>
+		</dict>
+		<key>QRScannerViewControllernow_sharpness.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8/Ik2pT4Gc8XCwn6q5010lCdnUyAFrBiowIB1RQ/y6o=
+			</data>
+		</dict>
+		<key>QRScannerViewControllernowfaketimereducesomelogging.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+N4aY96B4N28I9/BSUB6b6OWPkDIHJvhrD1RANC66Uk=
+			</data>
+		</dict>
+		<key>QRScannerViewControllernowfix3.5fake.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Im7UIbwz3rPcsanulY9jLZP1Nf+jGbCOCmZ6nB1L2Ko=
+			</data>
+		</dict>
+		<key>QRScannerViewControllernowminusiphon14prmax.swift.zip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VgqHqHFwV7iz6tF3BElewMZChH0cFFWi+kGsSEfH2yU=
+			</data>
+		</dict>
+		<key>TensorFlowLite.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			c6UCs63+PdBLjpZu4euGdcsT0gm/oGztmm8xZ/xaYPY=
+			</data>
+		</dict>
+		<key>TensorFlowLite.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jWXQtDoSYs/inoM5bACz25T7Eg1E0RiNknNB8UpsIjw=
+			</data>
+		</dict>
+		<key>TensorFlowLiteC.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Rvr7HUuinAzFINEYe8RJNLJUPnusH/o4ypSGFLuP/XU=
+			</data>
+		</dict>
+		<key>TensorFlowLiteC.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
 			</data>
 		</dict>
 		<key>en_qr_code_instr.m4a</key>
@@ -163,6 +337,41 @@
 			<key>hash2</key>
 			<data>
 			yuEIt/ybkdZyE2+leUr+Yi6jRXBLo0zjhCKKSvxb5jU=
+			</data>
+		</dict>
+		<key>ext.m4a</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+5vrGIDhnMr5TD+0pMEyEWYHm1QjqLyiRN33/68UaWQ=
+			</data>
+		</dict>
+		<key>fake_details.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6pBUEGBxHidqfSg3jdupzG67eTdP85p8QXDQYRPFSEY=
+			</data>
+		</dict>
+		<key>model-jul30.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8iImF4rNhsKyn+q9vmv3Iv91o3JRvfWjy+d6FAB5uCw=
+			</data>
+		</dict>
+		<key>model-new-offset.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zEmH79yIyGxgHiYjcf9O4vsnV+rKUSPnRHqBDjQNOQc=
+			</data>
+		</dict>
+		<key>model.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TD9bx1cZ0IufVVOBCc4Z+xrAMHrku5fifIkpAi++itM=
 			</data>
 		</dict>
 	</dict>

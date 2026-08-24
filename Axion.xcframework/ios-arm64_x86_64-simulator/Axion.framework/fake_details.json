@@ -1,0 +1,21 @@
+{
+    "data": {
+        "actionable_items": [],
+        "customer_details": {
+            "id": 278,
+            "logo": "https://acviss-product-img.s3.amazonaws.com/prod/278/1772266117.1912017-Acviss-full-logo.png",
+            "name": "DEMO CERTIFY",
+            "success_message": "Thank You for Buying Genuine Product.",
+            "support": {
+                "email": "support@acviss.com",
+                "number": "8929142491",
+                "type": 2
+            },
+            "website": "https://acviss.com/"
+        },
+        "message": "This appears to be a fake label, please contact Acviss support"
+    },
+    "response_code": 102,
+    "log_id": 24462,
+    "gs1_information": {}
+}
