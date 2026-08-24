@@ -30,10 +30,24 @@ The Axion SDK provides a ready-to-use QR scanning and product authenticity verif
 In Xcode:
 
 1. Open your project
-2. **File → Add Packages…**
+2. **File → Add Package Dependencies…**
 3. Enter the repository URL: `https://github.com/acviss/AxionSDK`
-4. Select the desired version rule (Exact Version or Up to Next Major) and add the package
-5. Ensure the `Axion` product is added to your app target's "Frameworks, Libraries, and Embedded Content" list with **Embed & Sign** selected
+4. Pick a **Dependency Rule** (see recommendation below)
+5. Click **Add Package**
+6. In the product-selection sheet, tick **`Axion`** and confirm the target is your app target
+7. Verify that `Axion` appears in your target's **General → Frameworks, Libraries, and Embedded Content** list with **Embed & Sign** selected (Xcode usually sets this automatically for binary XCFramework packages, but confirm — "Do Not Embed" causes a dyld crash at launch)
+
+#### Which Dependency Rule should I pick?
+
+We recommend **"Up to Next Major Version"** for most consumers.
+
+| Rule | Behaviour | Use when… |
+|------|-----------|-----------|
+| **Up to Next Major Version** *(recommended)* | Auto-picks up patch and minor releases (e.g. `1.0.3` → `1.0.4`, `1.1.0`, …), stops before the next major (`2.0.0`) | You want automatic bug fixes and non-breaking improvements without manual pin updates. Aligns with the SDK's semver contract — patches and minors are guaranteed non-breaking. |
+| **Exact Version** | Locks to one specific tag (e.g. `1.0.3` only) | Your QA process needs every build to use bit-identical SDK binaries. Common for regulated / compliance-heavy production apps where every dependency change requires re-testing. |
+
+
+Whichever rule you pick, commit your `Package.resolved` file to source control so teammates and CI resolve to the same version.
 
 ### 2. Import the SDK
 
